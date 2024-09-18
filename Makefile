@@ -1,4 +1,7 @@
 test:
 	python -m pytest
 
-.PHONY: test
+serve:
+	python app.py
+
+.PHONY: test serve
